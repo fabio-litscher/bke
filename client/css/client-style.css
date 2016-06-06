@@ -1,0 +1,36 @@
+#header {
+    background-color: #c0392b;
+    color: #ecf0f1;
+}
+
+#tile-container {
+    margin: 0 auto;
+}
+
+.tile {
+    background-color: #EFEFEF;
+    color: #333;
+    font-size: 100px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding-top: 32px;
+    margin: 8px;
+    display: inline-block;
+}
+
+.tile.active {
+    background-color: #3f9ddd;
+}
+
+.tile .glyphicon {
+    margin: 0 auto 32px;
+}
+
+.tile .tile-title {
+    font-size: 38px;
+}
+
+.clearfix {
+    clear: both;
+}

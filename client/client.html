@@ -1,0 +1,38 @@
+<!DOCTPYE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartmirror</title>
+    <link href="./client/css/style.css" type="text/css" rel="stylesheet">
+    <link href="./client/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./client/css/client-style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="./client/img/rpi.ico">
+</head>
+<body>
+<div id="header">
+    <span>Konfiguration</span>
+</div>
+    <div id="tile-container">
+        <div id="weather-tile" class="col-sm-3 tile active">
+            <span class="glyphicon glyphicon-cloud"></span><br>
+            <span class="tile-title">Wetter</span>
+        </div>
+        <div id="watch-tile" class="col-sm-3 tile active">
+            <span class="glyphicon glyphicon-time"></span><br>
+            <span class="tile-title">Uhr</span>
+        </div>
+        <div id="calendar-tile" class="col-sm-3 tile active">
+            <span class="glyphicon glyphicon-calendar"></span><br>
+            <span class="tile-title">Kalender</span>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div id="scripts">
+        <script src="./client/lib/socket.io/socket.io.js"></script>
+        <script src="./client/lib/jquery/jquery-2.2.3.min.js"></script>
+        <script src="./client/js/client-controller.js"></script>
+    </div>
+</body>
+</html>
